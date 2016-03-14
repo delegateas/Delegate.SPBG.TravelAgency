@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping>
+    <FileToFile map="ILMergedDelegateSPBGTravelAgencyPlugins.dll"
+                to="..\..\Plugins\bin\**\ILMerged.Delegate.SPBG.TravelAgency.Plugins.dll"/>
+    <FileToFile map="ILMergedDelegateSPBGTravelAgencyWorkflow.dll"
+                to="..\..\Workflow\bin\**\ILMerged.Delegate.SPBG.TravelAgency.Workflow.dll"/>
+
+    <FileToPath map="WebResources\*.*" to="..\..\WebResources\src\dg_TravelAgency\**"/>
+    <FileToPath map="WebResources\**\*.*" to="..\..\WebResources\src\dg_TravelAgency\**"/>
+</Mapping>
